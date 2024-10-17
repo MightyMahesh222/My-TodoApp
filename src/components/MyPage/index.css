@@ -1,0 +1,37 @@
+.instIcon {
+    height: 45px;
+  }
+  
+  .myPageDiv {
+    background-color: transparent;
+    height: 50px;
+    width: 100vw;
+    margin-top: 0vh;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px rgb(28, 4, 4) solid;
+    justify-content: center;
+    border-top: none;
+    
+  }
+  
+  .headingCode {
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(64, 22, 88);
+  }
+  
+  .followBtn {
+    background-color: blue;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 7px 14px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  

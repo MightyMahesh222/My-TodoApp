@@ -1,0 +1,72 @@
+.todoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(47, 44, 138);
+    color: #1a1653;
+    background-color: transparent;
+    padding: 9px 10px;
+    margin-top: 13px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-left: solid 5px rgb(67, 26, 70);
+    border-right: none;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    text-align: center;
+
+
+  }
+
+  .todoDiv::-webkit-scrollbar {
+    display: none; 
+}
+  
+  .todo {
+    font-weight: 500;
+  }
+  
+  .deleteBtn {
+    background-color: transparent;
+   display: flex;
+   align-self: center;
+   border: 1px solid rgb(47, 44, 138);
+   padding: 9px 9px;
+   font-size: 18px;
+   margin-top: 13px;
+   border-left: none;
+   border-radius: 0px;
+
+  }
+  
+  .todoRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkBox {
+    transform: scale(2);
+    height: 10px;
+    width: 20px;
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .lineThrough {
+    text-decoration: line-through;
+    color: white;
+    border-color: rgb(30, 70, 156);
+    font-weight: bold;
+    background-color: rgb(18, 151, 18);
+  }
+  
+  .rowedDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
