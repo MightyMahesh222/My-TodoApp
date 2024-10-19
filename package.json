@@ -2,7 +2,7 @@
   "name": "my-todoapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MightyMahesh222.github.io/My-TodoApp",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
